@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/database/scripts/01_ca1_initdb_access.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/database/scripts/ca1_address.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/database/scripts/ca1_cityinfo.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/database/scripts/ca1_hobby.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/database/scripts/ca1_person.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/database/scripts/ca1_phone.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/database/scripts/ca1_socialhub.sql" dialect="MySQL" />
+  </component>
+</project>

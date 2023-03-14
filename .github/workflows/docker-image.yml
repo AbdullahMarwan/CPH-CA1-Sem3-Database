@@ -9,19 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Create env file
-        run: |
-          echo "${{ secrets.ENV_SECRETS }}" > .env
-          
-          - name: executing remote ssh commands using ssh key
-            uses: appleboy/ssh-action@v0.1.8
-            with:
-              host: ${{ secrets.HOST }}
-              username: ${{ secrets.USERNAME }}
-              key: ${{ secrets.KEY }}
-              port: ${{ secrets.PORT }}
-              script: whoami
-        
+
       - name: Checkout main branch from Github
         uses: actions/checkout@v3
         
